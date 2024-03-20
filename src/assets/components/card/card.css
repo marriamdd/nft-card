@@ -1,0 +1,79 @@
+.container {
+  width: 350px;
+  background: #15263f;
+  border-radius: 15px;
+  padding: 24px 24px 32px;
+}
+.equilibrium {
+  width: 100%;
+  border-radius: 10px;
+}
+.title{
+ 
+    color: var(--White, #fff);
+
+    font-size:22px;
+margin-top: 24px;
+    font-weight: 600;
+ 
+}
+.text{
+    width: 302px;
+    color: var(--Soft-Blue, #8bacd9);
+ margin-top: 16px;
+    font-size: 18px;
+
+    font-weight: 300;
+  
+}
+.info_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #2e405a; ;
+
+}
+
+.info_container div{
+    display: flex;
+    align-items: center;
+    gap: 6.5px;
+    
+}
+
+.info_container div span{
+    font-size: 16px;
+    line-height: 20.16px;
+}
+.eterium span{
+    color: var(--Cyan, #00fff8);
+    font-size: 600;
+}
+.clock span{
+    font-size: 400;
+    color: var(--Soft-Blue, #8bacd9);
+}
+.avatar{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 16px;
+
+}
+.avatar img{
+    width: 33px;
+    height: 33px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.avatar p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8bacd9; 
+}
+.avatar span{
+    color: var(--Cyan, #00FFF8);
+}
